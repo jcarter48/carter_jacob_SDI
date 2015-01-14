@@ -53,3 +53,6 @@ console.log(totalCost);
 var total = beanie + fedora + visor;
 console.log("You are purchasing " + beanie + " beanies, " + fedora + " fedoras, and " + visor + " visors which is a total of " + total + " hats. Your total comes out to $" + totalCost + ", and " + freeHats + " will be free.");
 
+//Test 1, put in 4 beanies, 4 fedoras, and 4 visors. Got 12 hats, 6 hats for free and the total was $66.
+//Test 2, put in 8 beanies, 6 fedoras, and 12 visors. Got 26 hats, 13 hats for free and the total was $143.
+//Test 3, put in 2 beanies, 14 fedoras, and 20 visors. Got 36 hats, 18 hats for free and the total was $198.

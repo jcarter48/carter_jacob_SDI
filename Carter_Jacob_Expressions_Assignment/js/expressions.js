@@ -6,30 +6,50 @@
  */
 //alert("Testing to see if it works");
 
-//Create array for the roommates
-var roomMates = ["Alexa, Levi, Jacob"];
+//Create array
+//First array for beanies
+var beanie = parseInt(prompt("Welcome to the hat website, everything is currently buy one get on free.\nHow many beanies do you want to purchase?"));
+var beanieArray = [beanie, 0];
+console.log(beanieArray[0] + beanieArray[1] + " Beanies");
 
-// Test the array
-console.log(roomMates);
+//Second array for fedoras
+var fedora = parseInt(prompt("How many fedoras do you want to purchase?"));
+var fedoraArray = [fedora, 0];
+console.log(fedoraArray[0] + fedoraArray[1] + " Fedoras");
 
-//Calculate total monthly apartment cost for the three roommates Alexa, Levi, and Jacob.
-total = rent + electric + water
-var rent = prompt ("Let's calculate how much money it cost each person to live in an apartment this month. \n Please enter in how much rent is:");
-var electric = prompt("Please enter how much the electric bill is:");
-var water = prompt("Please enter how much the water bill is:");
+//Third array for visors
+var visor = parseInt(prompt("How many visors do you want to purchase?"));
+var visorArray = [visor, 0];
+console.log(visorArray[0] + visorArray[1] + " Visors");
 
-//Calculate total
-var totalApartment = Number(rent) + Number(electric) + Number(water);
-console.log("The total cost of your apartment with your rent being $" + rent + " this month, your electric being $" + electric + " this month, and your water being $" + water + " this month is $" + totalApartment);
+//Assignment Operators
+//Im not entirely sure how to tie these into the equation
+//Sales tax
+var counter = 10;
+counter /=100;
+console.log(counter);
 
-//Caculate how much it cost per person
-var perPerson = totalApartment / 3;
-console.log(perPerson);
+//Price of each hat
+counter *=100;
+console.log(counter);
 
-//Testing my calculator
-//I tried
-//This is all wrong
+//Calculating how many hats will be free
+var freeHats = (beanie + fedora + visor) / 2;
 
+//Price of each hat variable
+var hatCost = 10;
+//Sales tax variable
+var saleTax = 10;
 
+//Calculating how much sales tax will cost
+var totalTax = (freeHats * hatCost) * saleTax/100;
+console.log(totalTax);
 
+//Calculating how much the total will cost
+var totalCost = (freeHats * hatCost) +totalTax;
+console.log(totalCost);
+
+//Calculating the total amount of hats being purchased.
+var total = beanie + fedora + visor;
+console.log("You are purchasing " + beanie + " beanies, " + fedora + " fedoras, and " + visor + " visors which is a total of " + total + " hats. Your total comes out to $" + totalCost + ", and " + freeHats + " will be free.");
 

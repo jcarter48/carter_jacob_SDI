@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00114b22-d447-4d56-b129-d9f928ba7076" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/Lastname_Firstname_Expressions_Flowcart.graphml" afterPath="$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/Lastname_Firstname_Expressions_Flowcart.graphml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/js/expressions.js" afterPath="$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/js/expressions.js" />
     </list>
     <ignored path="carter_jacob_SDI.iws" />
@@ -80,21 +81,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expressions_assignment.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="expressions_assignment.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/expressions_assignment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+            <state vertical-scroll-proportion="0.11261261" vertical-offset="0" max-vertical-offset="666">
               <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="expressions.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="expressions.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/js/expressions.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9130435" vertical-offset="225" max-vertical-offset="960">
-              <caret line="57" column="70" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+              <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -154,8 +155,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-51" />
-    <option name="y" value="30" />
+    <option name="x" value="18" />
+    <option name="y" value="27" />
     <option name="width" value="1465" />
     <option name="height" value="787" />
   </component>
@@ -403,7 +404,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-51" y="30" width="1465" height="787" extended-state="0" />
+    <frame x="18" y="27" width="1465" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -507,14 +508,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/expressions_assignment.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
-          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day3LabExpressions/labexpressions.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22522523" vertical-offset="0" max-vertical-offset="666">
@@ -543,11 +536,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/js/expressions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9130435" vertical-offset="225" max-vertical-offset="960">
-          <caret line="57" column="70" selection-start-line="57" selection-start-column="70" selection-end-line="57" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
+          <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Carter_Jacob_Expressions_Assignment/expressions_assignment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11261261" vertical-offset="0" max-vertical-offset="666">
+          <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -7,6 +7,8 @@
 //alert("Testing to see if it works");
 
 //Create array
+//arrays for hatsold and everytime I use it use the array for the number
+//confused you want me to just make one array for hatsold? but what do i do about the prompting the user for the 3 numbers for beanies/fedoras/visors.
 //First array for beanies and prompt for how many beanies the customer wants
 var beanie = parseInt(prompt("Welcome to the hat website, everything is currently buy one get on free.\nHow many beanies do you want to purchase?"));
 var beanieArray = [beanie, 0];
@@ -42,7 +44,7 @@ var hatCost = 10;
 var saleTax = 10;
 
 //Calculating how much sales tax will cost
-var totalTax = (freeHats * hatCost) * saleTax/100;
+var totalTax = (freeHats * hatCost) * (saleTax/100);
 console.log("Tax Cost: $" + totalTax);
 
 //Calculating how much the total will cost

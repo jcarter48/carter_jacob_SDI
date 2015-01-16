@@ -20,12 +20,12 @@ console.log(hats[0] + ":" + beanies);
 //Prompt for fedora amount
 var fedoras = parseInt(prompt("How many fedoras do you want to purchase?"));
 //Output for fedora amount
-console.log(hats[1] + ":" + beanies);
+console.log(hats[1] + ":" + fedoras);
 
 //Prompt for visor amount
 var visors = parseInt(prompt("How many visors do you want to purchase?"));
 //Output for visor amount
-console.log(hats[2] + ":" + beanies);
+console.log(hats[2] + ":" + visors);
 
 //Assignment Operators
 //Sales tax
@@ -38,7 +38,6 @@ counter *=1;
 console.log("Cost of each hat: $" + counter);
 
 //Calculating how many hats will be free
-//Connext the array here
 var freeHats = (beanies + fedoras + visors) / 2;
 
 //Price of each hat variable

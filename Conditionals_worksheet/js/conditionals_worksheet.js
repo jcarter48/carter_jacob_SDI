@@ -5,28 +5,7 @@
  Conditionals Worksheet
  */
 //alert("Testing to see if it works");
-/*Hot Enough?
 
-//Is it hot enough to go to the beach?
-
-var temp = 80;
-
-//if the temperature is less than 75..
-
-if(temp < 75){
-
-//if its less than 75
-
- console.log(“We will go to the movies.”);
-
-else{
-
-//if it’s greater or equal to 75
-
-  console.log(“We will go to the beach!”);
-
- }
-*/
 //Last Chance for Gas!
 //Gas efficiency of the car (in mpg)
 var mpg = 30;
@@ -54,6 +33,9 @@ if(milesEmpty >= 200) {
   console.log("You only have " + gallonsLeft + " gallons of gas in your tank, better get gas now while you can!");
  }
 
+
+
+
 //Check the login
 //Username entered by user
 var username = prompt("Please enter your username:");
@@ -63,8 +45,6 @@ var password = prompt("Please enter your password:");
 var correctUsername = ("jacob");
 //Correct password
 var correctPassword = ("carter");
-//Invalid username
-//Invalid password
 
 //If correct username & password
 if(username == correctUsername && password == correctPassword) {
@@ -79,12 +59,17 @@ if(username == correctUsername && password == correctPassword) {
  console.log("Password does not match our records.");
  }
 
+
+
+
 //Tire Pressure I
 //Array for all tire psi
 var tirePSI = [38,38,40,40];
+
 //If both front tires are the same psi, and if both back tires are the same psi
 if(tirePSI[0] == tirePSI[1] && tirePSI[2] == tirePSI[3]) {
  console.log("The tires pass spec!");
+
  //If a front tires aren't the same psi, or if the back tires aren't the same psi
 } else { (tirePSI[0] != tirePSI[1] && tirePSI[2] != tirePSI[3])
  console.log("Get your tires checked out!");

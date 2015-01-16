@@ -57,7 +57,6 @@ if(milesEmpty >= 200) {
 //Check the login
 //Username entered by user
 var username = prompt("Please enter your username:");
-console.log(username);
 //Password entered by user
 var password = prompt("Please enter your password:");
 //Correct username
@@ -65,15 +64,28 @@ var correctUsername = ("jacob");
 //Correct password
 var correctPassword = ("carter");
 //Invalid username
-var wrongUsername =
 //Invalid password
-//hooters48
+
 //If correct username & password
-if(correctUsername && correctPassword) {
+if(username == correctUsername && password == correctPassword) {
  console.log("Welcome, " + correctUsername + "!");
 
 //If the username doesn't match
-} else { (username )
-console.log("User not found. Try again.");
+} else if (username != correctUsername) {
+ console.log("User not found. Try again.");
 
+//If the password doesn't match
+} else { (password != correctPassword)
+ console.log("Password does not match our records.");
+ }
+
+//Tire Pressure I
+//Array for all tire psi
+var tirePSI = [38,38,40,40];
+//If both front tires are the same psi, and if both back tires are the same psi
+if(tirePSI[0] == tirePSI[1] && tirePSI[2] == tirePSI[3]) {
+ console.log("The tires pass spec!");
+ //If a front tires aren't the same psi, or if the back tires aren't the same psi
+} else { (tirePSI[0] != tirePSI[1] && tirePSI[2] != tirePSI[3])
+ console.log("Get your tires checked out!");
  }

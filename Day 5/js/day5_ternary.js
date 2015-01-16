@@ -39,7 +39,7 @@ var book;
 
 book = (age<10) ? "Green Eggs & Ham" : "The Time Machine";
 
-var book2 = (age<10) ? "Green Eggs & Ham" : (age>15) ? "The Time Machine" : "Twilight" ;
+var book2 = (age<10) ? "Green Eggs & Ham" : (age<15) ? "The Time Machine" : "Twilight" ;
 
 console.log("You should read " + book);
 console.log(book2);

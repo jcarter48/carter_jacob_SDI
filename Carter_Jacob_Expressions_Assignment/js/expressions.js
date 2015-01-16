@@ -7,25 +7,27 @@
 //alert("Testing to see if it works");
 
 //Create array
-//arrays for hatsold and everytime I use it use the array for the number
-//confused you want me to just make one array for hatsold? but what do i do about the prompting the user for the 3 numbers for beanies/fedoras/visors.
-//First array for beanies and prompt for how many beanies the customer wants
-var beanie = parseInt(prompt("Welcome to the hat website, everything is currently buy one get on free.\nHow many beanies do you want to purchase?"));
-var beanieArray = [beanie, 0];
-console.log(beanieArray[0] + beanieArray[1] + " Beanies");
+//Array for all hats
+var hats = ["Beanies","Fedoras","Visors"];
+//Output for hats array
+console.log(hats);
 
-//Second array for fedoras and prompt for how many fedoras the customer wants
-var fedora = parseInt(prompt("How many fedoras do you want to purchase?"));
-var fedoraArray = [fedora, 0];
-console.log(fedoraArray[0] + fedoraArray[1] + " Fedoras");
+//Prompt for beanie amount
+var beanies = parseInt(prompt("Welcome to the hat website, everything is currently buy one get on free.\nHow many beanies do you want to purchase?"));
+//Ouput for beanie amount
+console.log(hats[0] + ":" + beanies);
 
-//Third array for visors and prompt for how many visors the customer wants
-var visor = parseInt(prompt("How many visors do you want to purchase?"));
-var visorArray = [visor, 0];
-console.log(visorArray[0] + visorArray[1] + " Visors");
+//Prompt for fedora amount
+var fedoras = parseInt(prompt("How many fedoras do you want to purchase?"));
+//Output for fedora amount
+console.log(hats[1] + ":" + beanies);
+
+//Prompt for visor amount
+var visors = parseInt(prompt("How many visors do you want to purchase?"));
+//Output for visor amount
+console.log(hats[2] + ":" + beanies);
 
 //Assignment Operators
-//Im not entirely sure how to tie these into the equation
 //Sales tax
 var counter = 100;
 counter /=10;
@@ -36,7 +38,8 @@ counter *=1;
 console.log("Cost of each hat: $" + counter);
 
 //Calculating how many hats will be free
-var freeHats = (beanie + fedora + visor) / 2;
+//Connext the array here
+var freeHats = (beanies + fedoras + visors) / 2;
 
 //Price of each hat variable
 var hatCost = 10;
@@ -52,10 +55,10 @@ var totalCost = (freeHats * hatCost) +totalTax;
 console.log("Total Cost: $" + totalCost);
 
 //Calculating the total amount of hats being purchased.
-var total = beanie + fedora + visor;
+var total = beanies + fedoras + visors;
 //Final Output String
-console.log("You are purchasing " + beanie + " beanies, " + fedora + " fedoras, and " + visor + " visors which is a total of " + total + " hats. Your total comes out to $" + totalCost + ", and " + freeHats + " will be free.");
+console.log("You are purchasing " + beanies + " " + hats[0] + " " + fedoras + " " + hats[1] + " and " + visors + " " + hats[2] + " which is a total of " + total + " hats. Your total comes out to $" + totalCost + ", and " + freeHats + " will be free.");
 
-//Test 1, put in 4 beanies, 4 fedoras, and 4 visors. Got 12 hats, 6 hats for free and the total was $66.
-//Test 2, put in 8 beanies, 6 fedoras, and 12 visors. Got 26 hats, 13 hats for free and the total was $143.
-//Test 3, put in 2 beanies, 14 fedoras, and 20 visors. Got 36 hats, 18 hats for free and the total was $198.
+//Test 1, put in 2 Beanies, 2 Fedoras, and 2 Visors. Got 6 hats, 3 hats for free and the total was $66.
+//Test 2, put in 10 Beanies, 10 Fedoras, and 10 Visors. Got 30 hats, 15 hats for free and the total was $165.
+//Test 3, put in 100 Beanies, 100 Fedoras, and 100 Visors. Got 300 hats, 150 hats for free and the total was $1650.

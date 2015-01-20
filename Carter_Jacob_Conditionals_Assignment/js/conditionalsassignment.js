@@ -53,17 +53,17 @@ var moneyThemePark = spendingMoney - (busTicket + themeParkTicket);
 var moneyArcade = spendingMoney - (busTicket + arcadeTokens);
 var moneyMovie = spendingMoney - (busTicket + movieTicket);
 
-//conditional to see whether you should go to a theme park, arcade, or stay home
+//conditionals to see whether you should go to a theme park, arcade, movie theater, or stay home
 if (spendingMoney >= 100 && temperature >= 80 && forecast == clear) {
  console.log("Go to the theme park! It will cost you $" + busTicket + " for the bus ticket to get there, and $" + themeParkTicket + " for the theme park ticket! Leaving you with $" + moneyThemePark + ".");
 
-} else if (spendingMoney >= 40 && temperature >= 70 && forecast == clear || forecast == overcast) {
+} else if ((spendingMoney >= 40 && temperature >= 70) && (forecast == clear || forecast == overcast)) {
 console.log("Go to the arcade! It will cost you $" + busTicket + " for the bus ticket to get there, and $" + arcadeTokens + " for the arcade tokens! Leaving you with $" + moneyArcade + ".");
 
-} else if (spendingMoney >= 20 && temperature >= 40 && forecast == clear || forecast == overcast || forecast == rain) {
+} else if ((spendingMoney >= 20 && temperature >= 40) && (forecast == clear || forecast == overcast || forecast == rain)) {
  console.log("Go to the movie theater! It will cost you $" + busTicket + " for the bus ticket to get there, and $" + movieTicket + " for a movie ticket! Leaving you with $" + moneyMovie + ".");
 }else {
- home = (spendingMoney < 20) ? "Stay at home, you don't have enough money" : (temperature < 40) ? "Stay at home, it's cold out" : (spendingMoney < 20 && temperature < 40) ? "Stay at home, you don't have enough money and it is to cold to do anything.":"You can go out."
+ home = (spendingMoney < 20) ? "Stay at home because you don't have enough money or it's cold out, or both!" : (temperature < 40) ? "Stay at home because you don't have enough money or it's cold out, or both!" : "";
  console.log(home);
 }
 

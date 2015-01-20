@@ -11,7 +11,7 @@
 var promptSpendingMoney = prompt("How much money are you willing to spend?");
 //variable to store prompt information
 var spendingMoney = promptSpendingMoney;
-console.log(spendingMoney);
+//console.log(spendingMoney);
 //checking if the variable is empty
 if (spendingMoney === " "){
  prompt("Please enter how much money you are willing to spend.");
@@ -21,7 +21,7 @@ if (spendingMoney === " "){
 var promptTemperature = prompt("What's the temperature today?");
 //variable to store prompt information
 var temperature = promptTemperature;
-console.log(temperature);
+//console.log(temperature);
 //checking if the variable is empty
 if (temperature === " ") {
  prompt("Please enter today's temperature.");
@@ -31,7 +31,7 @@ if (temperature === " ") {
 var promptForecast = prompt("What's the forecast today? (clear, overcast, or rain)");
 //variable to store prompt information
 var forecast = promptForecast;
-console.log(forecast);
+//console.log(forecast);
 //checking if the variable is empty
 if (forecast === " ") {
  prompt("Please today's forecast.");

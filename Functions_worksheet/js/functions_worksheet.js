@@ -50,6 +50,19 @@ function beeStings(weight){
     
 }
 
+//prompt user for the how much the animal weighs in pounds(the given)
+var petWeight = prompt("Please type in how much your pet weighs (in pounds):");
 
+//validating if its a number/if its an empty string
+while(isNaN(petWeight) || petWeight===""){
+    petWeight = prompt("Please only use numbers \nType in how much your pet weighs (in pounds):");
+}
 
+//parsing the variable
+petWeight = parseInt(petWeight);
 
+//variable to catch the results
+var stingsDeath = beeStings(petWeight);
+
+//return:
+console.log(stingsDeath);

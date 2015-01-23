@@ -66,3 +66,6 @@ var stingsDeath = beeStings(petWeight);
 
 //return:
 console.log(stingsDeath);
+
+//result to print to the console
+console.log("It will take " + stingsDeath.toFixed(2) + " bee stings to kill your pet that weighs " + petWeight + " pounds");

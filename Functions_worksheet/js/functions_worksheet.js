@@ -7,6 +7,8 @@
 
 //alert("Testing");
 
+
+//circumference
 //calculating the circumference of a circle
 //Create a function to calculate the circumference of a circle
 //circumference = 2*pi*r
@@ -37,6 +39,10 @@ console.log(circumference);
 
 //result to print to the console
 console.log("The circumference of your circle with a radius of " + userRad + " is " + circumference.toFixed(2));
+
+
+
+
 
 //stung!
 //calculating how many bee sings are needed to kill an animal in a function

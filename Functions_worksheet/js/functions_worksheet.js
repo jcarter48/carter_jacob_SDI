@@ -40,7 +40,15 @@ console.log("The circumference of your circle with a radius of " + userRad + " i
 
 //stung!
 //calculating how many bee sings are needed to kill an animal in a function
-
+//Create a function to calculate the how many bee stings it takes to kill an animal
+//8.666666667*pounds=total bee stings to kill an animal
+function beeStings(weight){
+    var totalStings= 8.666666667*weight;
+    
+    //return this area
+    return totalStings;
+    
+}
 
 
 

@@ -42,5 +42,25 @@ function trapArea(a,b,h) {
     return area;
 }
 
+//Prompt for a base
+var baseA = prompt("Please enter base A:");
+//Validate our base A prompt
+while(isNaN(baseA) || baseA==="") {
+    //Re-prompt the user for correct information
+    baseA= prompt("Please do not leave blank and only user numbers. \nEnter base A:");
 
+}//Prompt for b base
+var baseB = prompt("Please enter base B:");
+//Validate our base A prompt
+while(isNaN(baseB) || baseB==="") {
+    //Re-prompt the user for correct information
+    baseB= prompt("Please do not leave blank and only user numbers. \nEnter base B:");
+
+}//Prompt for h height
+var height = prompt("Please enter the height:");
+//Validate our H hieght prompt
+while(isNaN(height) || height==="") {
+    //Re-prompt the user for correct information
+    height= prompt("Please do not leave blank and only user numbers. \nEnter the height:");
+}
 

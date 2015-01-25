@@ -37,7 +37,7 @@ console.log("Your total rent is $" + totalRent + " , and you live with " + total
 //Setup the area function
 function trapArea(a,b,h) {
     //perimeter of a rectangle is 2*width + 2*height
-    var area = ((a+b)/2)*h;
+    var area = ((Number(a)+Number(b))/2)*Number(h);
     //return the perimeter
     return area;
 }
@@ -64,3 +64,6 @@ while(isNaN(height) || height==="") {
     height= prompt("Please do not leave blank and only user numbers. \nEnter the height:");
 }
 
+//Function call are of a trapezoidfunction
+var trapezoidArea = trapArea(baseA,baseB,height);
+console.log("The area of a trapezoid with A's base being " + baseA + ", B's base being " + baseB + ", and with the height of " + height + " is " + trapezoidArea);

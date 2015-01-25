@@ -6,6 +6,8 @@
  */
 
 //alert("Testing");
+
+
 //Creating an anon function to calculate how much rent will be for each person
 //Create an anonymous function that calc the area of a triangle
 var rentEach = function(r, p){
@@ -32,6 +34,16 @@ while(isNaN(totalPeople) || totalPeople==="") {
 //Function call anon function
 var rentPerPerson = rentEach(totalRent,totalPeople);
 console.log("Your total rent is $" + totalRent + " , and you live with " + totalPeople + " people, so rent will cost $" + rentPerPerson + " per person.");
+
+/*
+ *Test 1, put in 100 for totalRent, and 4 for totalPeople. Got $25 per person.
+ *Test 2, put in 900 for totalRent, and 3 for totalPeople. Got $300 per person.
+ *Test 3, put in 8550 for totalRent, and 12 for totalPeople. Got $712.5 per person.
+ */
+
+
+
+
 
 //Creating a normal function to find the area of a trapezoid
 //Setup the area function
@@ -67,3 +79,9 @@ while(isNaN(height) || height==="") {
 //Function call are of a trapezoidfunction
 var trapezoidArea = trapArea(baseA,baseB,height);
 console.log("The area of a trapezoid with A's base being " + baseA + ", B's base being " + baseB + ", and with the height of " + height + " is " + trapezoidArea);
+
+/*
+ *Test 1 put in 4 for a, 10 for b, 8 for height. Got 56 for the area
+ *Test 2 put in 9 for a, 7 for b, 18 for height. Got 144 for the area
+ *Test 3 put in 2 for a, 26 for b, 45 for height. Got 630 for the area.
+ */

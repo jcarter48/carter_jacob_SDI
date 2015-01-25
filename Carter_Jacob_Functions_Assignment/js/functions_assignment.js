@@ -8,6 +8,9 @@
 //alert("Testing");
 
 
+
+
+
 //Creating an anon function to calculate how much rent will be for each person
 //Create an anonymous function that calc the area of a triangle
 var rentEach = function(r, p){
@@ -85,3 +88,5 @@ console.log("The area of a trapezoid with A's base being " + baseA + ", B's base
  *Test 2 put in 9 for a, 7 for b, 18 for height. Got 144 for the area
  *Test 3 put in 2 for a, 26 for b, 45 for height. Got 630 for the area.
  */
+
+

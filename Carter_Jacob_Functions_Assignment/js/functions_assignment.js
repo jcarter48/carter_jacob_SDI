@@ -12,7 +12,6 @@
 
 
 //Creating an anon function to calculate how much rent will be for each person
-//Create an anonymous function that calc the area of a triangle
 var rentEach = function(r, p){
     var each = r/p;
     return each;
@@ -63,15 +62,17 @@ var baseA = prompt("Please enter base A:");
 while(isNaN(baseA) || baseA==="") {
     //Re-prompt the user for correct information
     baseA= prompt("Please do not leave blank and only user numbers. \nEnter base A:");
+}
 
-}//Prompt for b base
+//Prompt for b base
 var baseB = prompt("Please enter base B:");
 //Validate our base A prompt
 while(isNaN(baseB) || baseB==="") {
     //Re-prompt the user for correct information
     baseB= prompt("Please do not leave blank and only user numbers. \nEnter base B:");
+}
 
-}//Prompt for h height
+//Prompt for h height
 var height = prompt("Please enter the height:");
 //Validate our H hieght prompt
 while(isNaN(height) || height==="") {
@@ -79,9 +80,9 @@ while(isNaN(height) || height==="") {
     height= prompt("Please do not leave blank and only user numbers. \nEnter the height:");
 }
 
-//Function call are of a trapezoidfunction
+//Function call area of a trapezoidfunction
 var trapezoidArea = trapArea(baseA,baseB,height);
-console.log("The area of a trapezoid with A's base being " + baseA + ", B's base being " + baseB + ", and with the height of " + height + " is " + trapezoidArea);
+console.log("The area of a trapezoid with A's base being " + baseA + ", B's base being " + baseB + ", and with the height of " + height + " is " + trapezoidArea + ".");
 
 /*
  *Test 1 put in 4 for a, 10 for b, 8 for height. Got 56 for the area

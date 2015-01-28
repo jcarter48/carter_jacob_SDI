@@ -40,7 +40,7 @@ var yearBorn = 1995;
 var currentYear = 2015;
 
 var age = currentYear - yearBorn - 1;
-console.log(age);
+console.log("Current age is " + age);
 
 //Math
 // +, -, *, /
@@ -51,19 +51,19 @@ var base = 4;
 var height = 5;
 
 var areaTriangle = 1/2 * base * height;
-console.log(areaTriangle);
+console.log("The area of a triangle is " + areaTriangle);
 
 // Modulo - %
 //Gives remainder
 var remainder = 32%10;
-console.log(remainder);
+console.log("" + remainder);
 
 //Find if even or odd
 // Modulo by 2 %2
 // 1 if it is odd
 // 0 if even
 var evenOrOdd = 67%2;
-console.log(evenOrOdd);
+console.log("Modulo 67%2 is " + evenOrOdd);
 
 //Assignment Operators
 /*
@@ -105,7 +105,7 @@ var kermit = "Light green";
 
 var frogName = "kermit";
 
-console.log(frogName);
+console.log("The frogs name is " + frogName);
 
 //Double quote or single quote?
 // can use an escaping character \ backslash in front of the apostrophe
@@ -139,7 +139,7 @@ var quiz3 = 70;
 
 //Average - add them and divideby how many there are
 var average = (quiz1 + quiz2 + quiz3) /3;
-console.log(average);
+console.log("The average quiz grade is " + average);
 
 //Do NOT overuse parenthesis
 // var perimeter = ((length*2) + (width*2));
@@ -153,7 +153,7 @@ var lastName = "The Frog";
 
 //Concatenate the first and last name into a full name
 var fullName = firstName +" "+ lastName;
-console.log(fullName);
+console.log("The frogs full name is " + fullName);
 
 console.log(fullName + " is my favorite muppet!");
 
@@ -161,7 +161,7 @@ var d = "6";
 var e = "7";
 
 var combine = d + e;
-console.log(combine);
+console.log("d + e is " + combine);
 
 //Constant values are always UPPERCASE
 var PI = 3.14;

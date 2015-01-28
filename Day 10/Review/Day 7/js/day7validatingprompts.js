@@ -39,7 +39,7 @@ console.log(isNaN(7)); //Returns false
 var age = prompt("Please enter your age:");
 
 //Validate that the user typed in a number
-while(isNaN(age) || age===""){
+while(age==="" || isNaN(age)){
     //This code runs anytime that the age is not a number
     //Reprompt the user for a number
     age = prompt("Only use numbers, please enter your age:");

@@ -9,6 +9,7 @@
 //Making a calculator to determine whether you go to a theme park, arcade, or stay home
 //prompt for how much money I am willing to spend
 var promptSpendingMoney = prompt("How much money are you willing to spend?");
+
 //variable to store prompt information
 var spendingMoney = promptSpendingMoney;
 //console.log(spendingMoney);

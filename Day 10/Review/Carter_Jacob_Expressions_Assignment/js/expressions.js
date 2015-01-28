@@ -14,16 +14,27 @@ console.log(hats);
 
 //Prompt for beanie amount
 var beanies = parseInt(prompt("Welcome to the hat website, everything is currently buy one get on free.\nHow many beanies do you want to purchase?"));
+while(beanies === "" || isNaN(beanies)){
+    beanies = prompt("Please do not leave blank and only use numbers. \nHow many beanies do you want to purchases?");
+}
+
 //Ouput for beanie amount
 console.log(hats[0] + ":" + beanies);
 
 //Prompt for fedora amount
 var fedoras = parseInt(prompt("How many fedoras do you want to purchase?"));
+while(fedoras === "" || isNaN(fedoras)){
+    fedoras = prompt("Please do not leave blank and only use numbers. \nHow many fedoras do you want to purchases?");   
+}
 //Output for fedora amount
 console.log(hats[1] + ":" + fedoras);
 
 //Prompt for visor amount
 var visors = parseInt(prompt("How many visors do you want to purchase?"));
+while(visors === "" || isNaN(visors)){
+    visors = prompt("Please do not leave blank and only use numbers. \nHow many visors do you want to purchases?");
+    
+}
 //Output for visor amount
 console.log(hats[2] + ":" + visors);
 

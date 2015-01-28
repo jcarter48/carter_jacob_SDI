@@ -12,7 +12,7 @@ Arrays
 var avengersNames = ["Thor","Captain America","Iron Man"];
 
 //Print it out to the console
-console.log(avengersNames);
+console.log("Three avengers are " + avengersNames);
 
 //Print out one specific item
 console.log(avengersNames[1]);

@@ -91,19 +91,19 @@ console.log(num1);
 var num2 = 6.1;
 console.log(num2);
 num2 = Math.floor(num2);
-console.log(num2);
+console.log("Number down to the nearest integer/whole number is " + num2);
 
 //ceil(x)
 //Return x rounded up to the next integer/whole number
 var num3 = 4.8888;
 console.log(num3);
 num3 = Math.ceil(num3);
-console.log(num3);
+console.log("Number rounded up to the next interger/whole number is " + num3);
 
 //random()
 //Returns a number between 0 and 1
 var num4 = Math.round(Math.random()*100);
-console.log(num4);
+console.log("A number between 0 and 1 is " + num4);
 
 //Random number between two numbers
 //Math.random() * (max-min) + min
@@ -118,13 +118,6 @@ console.log("My current favorite is " + arrOfItems[randomCookie]);
 
 console.log(Math.PI.toFixed(2));
 console.log(Math.SQRT2);
-
-
-
-
-
-
-
 
 
 
